@@ -3,7 +3,7 @@ body{
     padding: 0;
     font-family: sans-serif;
     box-sizing: border-box;
-}
+} 
 header{
     position: absolute;
     background-color: white;
@@ -207,6 +207,9 @@ text-align: center;
     justify-content: center;
     background-color:#D6B8A8 ;
 }
+
+    
+/* css of footer*/
 .grid-footer{
     display: grid;
     grid-template-columns: 250px 250px 250px 250px 300px;
