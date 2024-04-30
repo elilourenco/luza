@@ -48,44 +48,149 @@ select{
 
 main{
     margin-top: 13rem;
-    margin-bottom: 10rem;
+    margin-bottom:4rem;
+    background-color: #ebe8e5; 
+}
+.information{
     text-align: center;
+}
+.information>h1{
+    font-size: 40px;
+
+}
+.title-duvidas{
+    text-align: center;
+    color: #BC6633;
     
 }
-main>h1{
+.duvidas{
     text-align: center;
 }
-main >h2{
-    text-align: center;
-    
+.p-duvidas{
+    font-size:14px;
 }
 .grid-contact{
     display: grid;
     grid-template-columns: 400px 400px 400px;
     grid-auto-rows:200px;
     justify-content: center;
-
-
+    margin-bottom: 8rem;
 }
-
-.name >label{
-    font-size: 16px;
+.visit{
+    font-size:40px;
     color: #BC6633;
-    text-align: left;
+}
+.schedule{
+    font-size: 40px;
+    color: #BC6633;
+}
+.inf-contact{
+    font-size: 40px;
+    color: #BC6633;
+}
+.search{
+    margin-top:2rem;
+    margin-left:14rem;
+    align-items: center;
+}
+.name{
+    margin-top:1rem;
+    display: flex;
+    margin-bottom: 1rem;
+
+}
+.grid-name{
+    display: grid;
+    width: 500px;
+}
+.grid-name>label{
+    font-size:16px ;
+}
+.grid-surname{
+    display: grid;
+    width: 500px;
+}
+.grid-surname>label{
+    font-size: 16px;
 }
 
-.name>input{
+.grid-name>input{
     
     border-bottom: 1px solid #BC6633;
     border-top: none;
     border-left: none;
     border-right: none;
     width:400px;
-    height: 50px;
     font-size: 14px;
-    margin-bottom: 3rem;
+    background-color: #ebe8e5;
 }
 
+.email{
+    margin-bottom:1.2rem;
+    display: grid;
+}
+.email>input{
+    width: 900px;
+    border-bottom:1px solid #BC6633;
+    border-left: none;
+    border-right:none;
+    border-top: none;
+}
+
+.grid-surname> input{
+    width:400px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #BC6633;
+    font-size: 14px;
+
+}
+
+.subject{
+    display: grid;
+    gap: 0.5rem;
+}
+.subject>label{
+    font-size: 16px;
+}
+
+.subject>input{
+    width: 900px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #BC6633;
+    margin-bottom: 1rem;
+}
+.message>p{
+    font-size: 11px;
+}
+.message>textarea{
+    width:900px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #BC6633;
+}
+.btn{
+    color: #BC6633;
+    background-color: white;
+    margin-top:3rem;
+    width:350px;
+    height:40px;
+    font-size: 16px;
+    border-color: #BC6633;
+    text-align: center;
+    align-items: center;
+}
+
+.thank{
+    font-size: 12px;
+}
+.send{
+    text-align: center;
+}
 
 .grid-footer{
     display: grid;
