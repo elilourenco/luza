@@ -13,6 +13,18 @@ header{
     top:0;
     z-index:2;
 }
+@media screen and (min-width:1200px) {
+header{
+    position: absolute;
+    background-color: white;
+    height:120px;
+    padding-bottom:1.5rem;
+    width:100%;
+    top:0;
+    z-index:2;
+}
+    
+}
 i{
     font-size: 24px;
     margin-top: 0.5rem;
@@ -32,6 +44,7 @@ i{
     cursor: pointer;
     color: #BC6633;
     margin-top:1rem;
+    text-decoration:none ;
 }
 .carrinho{
     margin-left:2rem;
@@ -138,21 +151,17 @@ select{
 
 .grid-wrapper{
     display:grid;
-    grid-gap:2.5rem;
-    grid-template-columns: 250px 250px 300px 250px;
+    grid-gap:1rem;
+    grid-template-columns:50px 250px 250px 300px 250px 50px;
     grid-auto-rows:250px;
     grid-auto-flow: dense;
     margin-left:80px;
     margin-right:80px;
     margin-bottom:1rem;
-    justify-content: center;
-
 }
 .description-product{
-    
-    margin-top: -18rem;
+    margin-top: -15rem;
     margin-bottom:0rem;
-     
 }
 
 .see-product{
@@ -178,6 +187,7 @@ select{
     height:100%;
     object-fit: cover;
     border-radius: 0.1rem;
+    
 
 }
 .description-to-le{
@@ -241,9 +251,12 @@ select{
 .follower{
      text-align: center;
      margin-top: -10rem;
+     margin-bottom: 1rem;
 }
-.follower >p{
+.follower >a{
     color: #BC6633;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .some-photo{
@@ -284,6 +297,7 @@ select{
     font-size: 40px;
     color: #BC6633;
     text-align:start;
+    text-decoration: none;
 }
 .more-menu >a{
     text-decoration: none;
@@ -332,6 +346,7 @@ select{
 }
 .subscription> button:hover{
     background-color: #D3895F;
+    color: white;
 }
 .div-subscription>p {
     font-size:14px;
@@ -345,7 +360,10 @@ select{
     padding-top: 10px;
     text-align: center;
 }
-
+.address>a{
+    text-decoration: none;
+    color: black;
+}
 
 
 

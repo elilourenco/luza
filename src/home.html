@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <title>Homepage</title>
-
-    <link rel="stylesheet" href="home.css">    
+    <link rel="stylesheet" href="home.css">  
+    <script src="home.js"></script> 
+ 
 </head>
 <body>
     <!-- Cabeçalho da app  -->
     <header>
         <div class="content">
             <p class="link-social">
-                <a href=""><i class="ph ph-facebook-logo"></i> </a>
-                <a href=""><i class="ph ph-instagram-logo"></i> </a>
-                <a href=""><i class="ph ph-x-logo"></i></a>
-                <a href=""><i class="ph ph-pinterest-logo"></i></a>
+                <a href="#"><i class="ph ph-facebook-logo"></i> </a>
+                <a href="#"><i class="ph ph-instagram-logo"></i> </a>
+                <a href="#"><i class="ph ph-x-logo"></i></a>
+                <a href="#"><i class="ph ph-pinterest-logo"></i></a>
             </p>
-            <a class="logo"><i>Lusacessorio</i></a>
+            <a class="logo" href="home.html"><i>Lusacessorio</i></a>
             <p class="sign">
                 <select name="" id="">
                     <optgroup>
@@ -30,11 +31,11 @@
         
         </div>        
         <div class="menu">
-            <a href="#">Pagina Inicial</a>
-            <a href="#">Coleção</a>
-            <a href="#">Nossa Historia</a>
-            <a href="#">Nossa Arte</a>
-            <a href="#">Contacto</a>
+            <a href="home.html">Pagina Inicial</a>
+            <a href="colecao.html">Coleção</a>
+            <a href="historia.html">Nossa Historia</a>
+            <a href="arte.html">Nossa Arte</a>
+            <a href="contacto.html">Contacto</a>
         </div>
     </header>
 
@@ -45,13 +46,18 @@
         </div>
         <div class="more-product">
             <p>NOVAS TENDENCIAS</p>
-            <button>Ver Coleção</button>
+            <button type="submit">Ver Coleção</button>
         </div>
         
         <h1 class="destaque">DESTAQUES</h1>
         <p class="traco">-</p>
 
+        <!-- description of the products-->                                                  
+
         <div class="grid-wrapper">
+            <div class="before-slide">
+                <button type="button"><i class="ph ph-caret-left"></i></button>
+            </div>
             <div>
                 <img src="/public/pexels-jeff-denlea-721292-3759005.jpg" alt="" >
             </div>
@@ -62,20 +68,34 @@
                 <img src="/public/pexels-reafonbgates-1569199.jpg" alt="">
             </div>
             <div>
-                <img src="/public/pexels-tubarones-2986782.jpg" alt="" width="200" height="200">
+                <img src="/public/pexels-tubarones-2986782.jpg" alt="">
             </div>
+
+            <div class="after-slide">
+               <button type="submit"> <i class="ph ph-caret-right"></i></button>
+            </div>
+
+            <div class="description-product">
+                <p></p>
+
+            </div>
+
             <div class="description-product">
                 <p>creme facial 17£ </p>
                 
+            </div>            
+            
+            <div class="description-product">
+                <p>creme facial 10£</p>
             </div>
             <div class="description-product">
-                <p>creme facial</p>
+                <p>creme facial 15£</p>
             </div>
             <div class="description-product">
-                <p>creme facial</p>
+                <p>creme facial 10£</p>
             </div>
             <div class="description-product">
-                <p>creme facial</p>
+                <p></p>
             </div>
         </div>
         
@@ -102,7 +122,7 @@
                 <img src="/public/pexels-tubarones-2986782.jpg" alt="">
             </div>
             <div class="description-botto">
-                <p>Brincos feito com amor</p>
+                <p>Sapatos feito com amor</p>
                 <hr class="empty"i>
             </div>
             <div  class="description-botto-ri"> 
@@ -154,7 +174,7 @@
 
         <div class="follower">
             <h1>SIGA A </br> LUSACESSORIO NO INSTAGRAN</h1>
-            <p>@lusacessorio</p>
+            <a href="#">@lusacessorio</a>
         </div>
 
         <div class="some-photo">
@@ -186,34 +206,35 @@
 
     <footer>
         <div class="grid-footer">
-            <a class="logo-footer"> <i>lusacessorio</i></a>
+            <a href="home.html" class="logo-footer"> <i>lusacessorio</i></a>
             <div class="more-menu">
-                <a href="">Página Inicial</a>
-                <a href="">Nossa Historia</a>
-                <a href="">Nossa Arte</a>
-                <a href="">Coleção</a>
-                <a>Contacto</a> 
+                <a href="home.html">Página Inicial</a>
+                <a href="historia.html">Nossa Historia</a>
+                <a href="arte.html">Nossa Arte</a>
+                <a href="colecao.html">Coleção</a>
+                <a href="contacto.html">Contacto</a> 
             </div>
 
             <div class="about-store">
-                <a href="">FAQ</a>
-                <a href="">Envio e Devolução</a>
-                <a href="">Política de Loja</a>
-                <a href="">Métodos de Pagamento</a>
-                <a href="">Nossas Lojas</a>
+                <a href="#">FAQ</a>
+                <a href="#">Envio e Devolução</a>
+                <a href="#">Política de Loja</a>
+                <a href="#">Métodos de Pagamento</a>
+                
            </div>
 
            <div class="some-link">
-                <a href="">Facebook</a>
-                <a href="">Instagram</a>
-                <a href="">Twitter</a>
-                <a href="">Pinterest</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Pinterest</a>
             </div>
             <div class="div-subscription">
                 <h1>ASSINE!</h1>
                 <form action="" class="subscription">
                     <label for="">Email*:</label>
-                    <input type="email" class="input-subscription" placeholder="Insira o seu email aqui">
+                    <input type="email" class="input-subscription" required
+                    placeholder="Insira o seu email aqui">
                     <button type="submit">Enviar</button>
                 </form>
                 <p>Obrigada Pelo envio!</p>
@@ -224,8 +245,8 @@
             <p>©2024 por luzacosmeticos Av. Dom Carlos I ,Lisboa, 
                 info@luzacosméticos.com Telefone: (+351) 934477524
             </p>
-            <i class="ph ph-paypal-logo"></i>
-            <i class="ph ph-credit-card"></i>
+            <a href="#"><i class="ph ph-paypal-logo"></i></a>
+            <a href="#"><i class="ph ph-credit-card"></i></a>
         </div>
     </footer>
 
