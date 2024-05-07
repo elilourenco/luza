@@ -18,6 +18,10 @@ i{
     margin-top: 0.5rem;
     margin-left: 1rem;
 }
+.link-social>a{
+    text-decoration: none;
+    color: black;
+}
 .content{
     display:flex; 
 }
@@ -27,6 +31,7 @@ i{
     font-size: 30px;
     cursor: pointer;
     color: #BC6633;
+    margin-top:1rem;
 }
 .carrinho{
     margin-left:2rem;
@@ -41,6 +46,11 @@ i{
     justify-content: center;
     cursor: pointer;
 }
+.menu> a{
+    text-decoration: none;
+    color: black;
+    margin-top: 2rem;
+}
 select{
     border:none;
     background-color: white;
@@ -48,15 +58,19 @@ select{
 
 .slide{
     width:100%;
+    height:700px;
     
 }
 .slide >img{
     width:100%;
+    object-fit: cover;
+    height:700px;
+   
 }
 .more-product{
     text-align: center;
     position:relative;
-    margin-top:-10rem;
+    margin-top:-8rem;
 
 }
 .more-product >p{
@@ -64,7 +78,7 @@ select{
     color: white;
     text-align: center;
     margin-bottom:4rem;
-    margin-top:-30rem;
+    margin-top:-17rem;
 
 }
 .more-product> button{
@@ -96,7 +110,7 @@ select{
 
 .destaque{
     text-align: center;
-    margin-top: 5rem;
+    margin-top:-8rem;
 }
 .traco{
     font-size: 40px;
@@ -135,19 +149,25 @@ select{
 
 }
 .description-product{
-    display: flex;
-text-align: center;
+    
+    margin-top: -18rem;
+    margin-bottom:0rem;
      
 }
 
 .see-product{
     align-items: center;
     justify-content: center;
+    margin-top: -11rem;
+    margin-bottom: 5rem;
+    
+}
+.btn-see{
+    border-radius: 0.1rem;
 }
 
 .product{
     display: grid;
-    grid-auto-flow:dense;
     grid-template-columns:685px 685px;
     grid-auto-rows: 400px 400px;
     margin-top: 3rem;
@@ -160,6 +180,37 @@ text-align: center;
     border-radius: 0.1rem;
 
 }
+.description-to-le{
+    margin-top:-41rem;
+    text-align: center;
+    color: white;
+    font-size: 42px;
+}
+.description-to-ri{
+    margin-top:-41rem;
+    text-align: center;
+    color: white;
+    font-size: 42px;
+}
+.description-botto{
+    margin-top: -41rem;
+    text-align: center;
+    color: white;
+    font-size: 42px;
+
+}
+.description-botto-ri{
+    margin-top: -41rem;
+    text-align: center;
+    color: white;
+    font-size: 42px;
+}
+.empty{
+    margin-top:-2rem;
+    width:430px;
+    background-color: white; 
+
+}
 
 .about-mission{
     display: grid;
@@ -168,7 +219,7 @@ text-align: center;
     grid-template-columns: 300px 300px 300px;
     grid-auto-rows: 300px 100px;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top:-45rem;
     margin-bottom: 2rem;
 }
 .about-mission > div> img{
@@ -177,8 +228,19 @@ text-align: center;
     object-fit: cover;
     border-radius: 0.5rem;
 }
+.our-mission{
+    margin-top: -20rem;
+    color: white;
+    text-align: center;
+}
+.our-line{
+    width:140px;
+    background-color: white;
+    margin-top:-0.5rem;
+}
 .follower{
      text-align: center;
+     margin-top: -10rem;
 }
 .follower >p{
     color: #BC6633;
@@ -223,11 +285,30 @@ text-align: center;
     color: #BC6633;
     text-align:start;
 }
+.more-menu >a{
+    text-decoration: none;
+    color: black;
+    display: grid;
+    grid-gap: 2rem;
+    padding-top:10px;
+}
+.about-store>a{
+    text-decoration: none;
+    display: grid;
+    color: black;
+    padding-top:10px;
+}
+.some-link>a{
+    text-decoration: none;
+    display: grid;
+    color: black;
+    padding-top:10px;
+}
 .subscription{
     display: grid;
     gap:0.4rem;
 }
-.subscription> label{
+.subscription>label{
     text-align: left;
     color: #BC6633;
 }
