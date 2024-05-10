@@ -1,12 +1,14 @@
-const startslide = ()=>{
-    const slidebutton= document.querySelectorAll(".before-slide .after.slide");
-     slidebutton.forEach(button => {
+const prevbtn = document.querySelectorAll(".before-slide")
+const nextbtn = document.querySelectorAll(".after-slide")
 
-        button.addEventListener("click",()=>{
-            console.log(button)
-        })
+const photos = new Array("Volvo","renault","brincos.jpg");
+
+
+photos.forEach(
+    function (value,index) 
+    {
+        console.log(index,value)
         
-     });
+    }
 
-}
-window.addEventListener("load", startslide);
+)
