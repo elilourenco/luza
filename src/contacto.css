@@ -122,7 +122,7 @@ main{
     border-right: none;
     width:400px;
     font-size: 14px;
-    background-color: #ebe8e5;
+    background-color:white;
 }
 
 .email{
@@ -182,7 +182,11 @@ main{
     font-size: 16px;
     border-color: #BC6633;
     text-align: center;
-    align-items: center;
+    align-items: center;justify-content: center;
+}
+.btn:hover{
+    background-color:#D3895F;
+    color: white;
 }
 
 .thank{
